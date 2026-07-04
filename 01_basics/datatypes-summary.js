@@ -61,3 +61,35 @@ let isSwitch = true
 // console.log(isSwitch)
 // console.log(typeof isSwitch)
 
+
+
+
+
+//*********************Stack & Heap Memory  *************************
+
+// Stack => store primitive datatypes and make a copy of variable
+
+let youtubeName = "vsdotcom"
+
+let anotherName = youtubeName
+// console.log(anotherName)
+anotherName = "pw vala"
+
+// console.log(youtubeName)
+// console.log(anotherName)
+
+
+
+// Heap => store non-primitive datatypes & give reference or address of original 
+
+let userOne = {
+    email : "userone@google.com",
+    upi : "userone@ybl"
+}
+
+let userTwo = userOne
+// console.log(userTwo.email)
+
+userTwo.email = "usertwo@yahoo.com"
+// console.log(userOne.email)
+// console.log(userTwo.email)
