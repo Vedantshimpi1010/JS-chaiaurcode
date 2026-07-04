@@ -13,5 +13,5 @@ console.table([name, age, studentId, city, number, bigNum, isAdult])
 console.table([typeof name, typeof age, typeof studentId, typeof city, typeof number, typeof bigNum, typeof isAdult])
 
 
-console.log(typeof undefined)
-console.log(typeof null)
+console.log(typeof undefined) // undefined
+console.log(typeof null) // object
